@@ -41,7 +41,7 @@
     - [x] About you
       - [x] A image of yourself
       - [x] Email address
-      - [ ] Anything more you want to add, it’s your portfolio project. 😀
+      - [x] Anything more you want to add, it’s your portfolio project. 😀
 
 - [x] Description Screen (Only seen when users tap on a card from Home screen, Map Screen, and Saved screen)
   - [x] Image
