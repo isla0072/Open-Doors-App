@@ -1,57 +1,25 @@
-<h1 align="center" id="title">Abir Islah</h1>
+# Open Doors App
 
-  
-  
-<h2>List of completed Features</h2>
+## Project Overview
+The Doors Open Ottawa iOS App is designed to enhance the experience of the annual Doors Open Ottawa event, allowing users to explore participating locations with ease. This offline-capable app provides detailed information about each building, event schedules, and interactive maps, ensuring a seamless and enriching user experience.
 
-- [x] Home screen
-  - [x] Card view of all the buildings
-    - [x] Image of a building
-    - [x] Favorite icon
-    - [x] Share icon
-    - [x] Address
-    - [x] Geolocation on how far the building is to YOUR location
-- [x] Search bar to search for building based on their name
-- [x] Filter icon
-  - [x] Sort By
-      - [x] Alphabetically
-      - [x] Distance from YOUR location
-    - [x] Building Features
-    - [x] Building Category
+## Features
+- **Home Screen**: Interactive card view of all participating buildings, featuring images, favorite and share icons, address, distance from the user's location, and a search bar.
+- **Map Screen**: Utilizes MapKit to display pins for building locations, with category-specific icons and building names on tap.
+- **Saved Screen**: Displays a list of user-favorited buildings with a search functionality.
+- **More Screen**: Offers language selection (English/French), and a form to recommend new buildings for inclusion in the app, integrating with Firebase for data storage.
+- **Description Screen**: Detailed view including images, favorite/share icons, building category, open hours, description, website link, and amenities.
 
-- [x] Map Screen
-  - [x] Using the MapKit display pin on where the buildings are located.
-  - [x] Pins are the category icons that are available in the Assets folder.
-  - [x] On tap on the pin, the building name should popup come, AND when the user taps on the popup show the building description screen.
+## Technologies Used
+- Swift
+- MapKit
+- Firebase
+- NWPathMonitor for internet connectivity checks
+- Localization for English and French language support
 
-- [x] Saved Screen
-  - [x] All the favorite buildings will be displayed on this screen.
-  - [x] Search bar to search from saved buildings.
+## Credits
+Developed as part of the final project for the Mobile App Design and Development course.
 
-- [x] More Screen
-  - [ ] Language (Partially did it, user can change it to French but only for the buildings. To change the entire app in French I was only able to do it through the settings of the phone.)
-    - [ ] By default English, however, the user can change it to French
-    - [ ] If French, change the content of the app to French, the data of the French is provided in the JSON file
-  - [x] Recommend a building (ONLY if there is an internet connection, refer to NWPathMonitor in Swift)
-    - [x] Users can recommend a building, this data will be stored in your own Firebase account. Invite your professors to the Firebase project.
-    - [x] Form details
-      - [x] Name of the building
-      - [x] Category
-      - [x] Description
-    - [x] About you
-      - [x] A image of yourself
-      - [x] Email address
-      - [x] Anything more you want to add, it’s your portfolio project. 😀
 
-- [x] Description Screen (Only seen when users tap on a card from Home screen, Map Screen, and Saved screen)
-  - [x] Image
-  - [x] Favorite icon
-  - [x] Share icon
-  - [x] Category
-  - [x] Open hours
-  - [x] Description
-  - [x] Website
-    - [x] On tap, should open in-app browser with that link
-  - [x] Amenities
-    - [x] With icons
-  
+
+
