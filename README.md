@@ -18,7 +18,7 @@ The Doors Open Ottawa iOS App is designed to enhance the experience of the annua
 - Localization for English and French language support
 
 ## Credits
-Developed as part of the final project for the Mobile App Design and Development course.
+Developed as part of the final project for the iOS Development course.
 
 
 
